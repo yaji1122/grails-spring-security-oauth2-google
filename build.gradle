@@ -20,7 +20,7 @@ def setIfNotSet = { String name, value ->
 setIfNotSet 'issueTrackerUrl', project.vcsUrl + '/issues'
 setIfNotSet 'websiteUrl', project.vcsUrl
 
-version "1.1.0"
+version "1.2.0"
 group = 'org.grails.plugins'
 
 apply plugin:"eclipse"
@@ -52,7 +52,7 @@ dependencies {
     provided 'org.grails:grails-dependencies'
     compile 'org.codehaus.groovy:groovy-all:2.4.3'
     provided 'org.grails.plugins:spring-security-core:3.+'
-    provided 'org.grails.plugins:spring-security-oauth2:1.1.0'
+    provided 'org.grails.plugins:spring-security-oauth2:1.2.0+'
 
     console "org.grails:grails-console"
 }
@@ -70,8 +70,8 @@ grailsPublish {
         name = 'Apache-2.0'
     }
     title = "Spring Security Oauth2 Google Provider"
-    desc = "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2."
-    developers = [johndoe: "John Doe"]
+    desc = "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2. v1.2.0 starts after fork to grails-plugins org. Includes unreleased 1.1.1 from other repo."
+    developers = [MatrixCrawler: "Johannes Brunswicker"]
     portalUser = ""
     portalPassword = ""
 }
