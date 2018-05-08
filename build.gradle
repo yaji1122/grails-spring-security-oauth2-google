@@ -62,16 +62,16 @@ task wrapper(type: Wrapper) {
 }
 
 grailsPublish {
-//     TODO: Provide values here
-    user = project.bintray_user
-    key = project.bintray_key
-    githubSlug = 'MatrixCrawler/grails-spring-security-oauth2-google'
+    user = System.getProperty("BINTRAY_USER")
+    key = System.getProperty("BINTRAY_KEY")
+    githubSlug = 'grails-plugins/grails-spring-security-oauth2-google'
     license {
         name = 'Apache-2.0'
     }
     title = "Spring Security Oauth2 Google Provider"
     desc = "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2. v1.2.0 starts after fork to grails-plugins org. Includes unreleased 1.1.1 from other repo."
-    developers = [MatrixCrawler: "Johannes Brunswicker"]
+    developers = [MatrixCrawler: "Johannes Brunswicker",
+                  rvanderwerf   : "Ryan Vanderwerf"]
     portalUser = ""
     portalPassword = ""
 }
