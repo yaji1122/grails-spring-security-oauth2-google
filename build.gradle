@@ -72,8 +72,7 @@ grailsPublish {
     desc = "This plugin provides the capability to authenticate via g+-oauth provider. Depends on grails-spring-security-oauth2. v1.2.0 starts after fork to grails-plugins org. Includes unreleased 1.1.1 from other repo."
     developers = [MatrixCrawler: "Johannes Brunswicker",
                   rvanderwerf   : "Ryan Vanderwerf"]
-    portalUser = ""
-    portalPassword = ""
+    userOrg = 'grails'
 }
 
 assets {
