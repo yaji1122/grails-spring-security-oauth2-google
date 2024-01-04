@@ -1,5 +1,8 @@
 Spring Security OAuth2 Google Plugin
 ====================================
+On working for support Grails 5 ....
+
+
 [ ![Download](https://api.bintray.com/packages/grails/plugins/spring-security-oauth2-google/images/download.svg) ](https://bintray.com/grails/plugins/spring-security-oauth2-google/_latestVersion)
 
 Add a Google OAuth2 provider to the [Spring Security OAuth2 Plugin](https://github.com/grails-plugins/grails-spring-security-oauth2).
