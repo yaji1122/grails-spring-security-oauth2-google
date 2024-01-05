@@ -1,10 +1,8 @@
 Spring Security OAuth2 Google Plugin
 ====================================
-On working for support Grails 5 ....
+Upgrade for Grails 5 compatibility (Grails 5.3.5 & Gradle 7.2)
 
-
-[ ![Download](https://api.bintray.com/packages/grails/plugins/spring-security-oauth2-google/images/download.svg) ](https://bintray.com/grails/plugins/spring-security-oauth2-google/_latestVersion)
-
+[![Build Status](https://travis-ci.org/robfletcher/grails-spring-security-oauth2-google.svg?branch=master)](https://travis-ci.org/robfletcher/grails-spring-security-oauth2-google)
 Add a Google OAuth2 provider to the [Spring Security OAuth2 Plugin](https://github.com/grails-plugins/grails-spring-security-oauth2).
 
 Installation
@@ -13,8 +11,8 @@ Add the following dependencies in `build.gradle`
 ```
 dependencies {
 ...
-    compile 'org.grails.plugins:spring-security-oauth2:1.+'
-    compile 'org.grails.plugins:spring-security-oauth2-google:1.1.+'
+    compile 'org.grails.plugins:spring-security-oauth2:3.0.0'
+    compile 'org.grails.plugins:spring-security-oauth2-google:5.3.5'
 ...
 }
 ```
